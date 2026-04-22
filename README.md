@@ -1,6 +1,18 @@
-# Projeto Jogo da Forca - Linguagem C 
+# Projeto Jogo da Forca - Linguagem C 🕹️
 
 Este é um clássico Jogo da Forca desenvolvido em C, estruturado de forma modular para demonstrar boas práticas de programação, como o uso de headers e prototipagem de funções.
+
+## 📸 Demonstração
+
+Aqui podes ver o fluxo de funcionamento do programa:
+
+<div align="center">
+  <img src="img/print1.png" width="400px" alt="Início do Jogo">
+  <img src="img/print2.png" width="400px" alt="Tentativas">
+  <br>
+  <img src="img/print3.png" width="400px" alt="Progresso">
+  <img src="img/print4.png" width="400px" alt="Finalização">
+</div>
 
 ## 🛠️ Funcionalidades
 
@@ -13,9 +25,9 @@ Este é um clássico Jogo da Forca desenvolvido em C, estruturado de forma modul
 
 O projeto utiliza a separação de responsabilidades entre arquivos:
 
-* **`jogo.h` (Header File):** Contém a **prototipagem** de todas as funções e as definições de constantes. Ele serve como o "manual" do que o programa é capaz de fazer.
+* **`jogo.h` (Header File):** Contém a **prototipagem** de todas as funções e as definições de constantes.
 * **`jogo.c`:** Implementação das funções e toda a lógica de funcionamento do jogo.
-* **`projetoFinal.c`:** Ponto de entrada do programa (contém a função `main`) que coordena a execução utilizando as funções prototipadas.
+* **`projetoFinal.c`:** Ponto de entrada do programa (contém a função `main`).
 
 ## 🚀 Como Compilar e Executar
 
