@@ -1,28 +1,29 @@
-# CriptoMsg - Sistema de Mensagens Cifradas em C
+# Projeto Jogo da Forca - Linguagem C 🕹️
 
-Aplicação de terminal desenvolvida para a UC607 (Linguagem C). O objetivo do projeto é a gestão de mensagens com uma camada de segurança baseada em chave mestra e algoritmos de cifragem.
+Este é um clássico Jogo da Forca desenvolvido em C, estruturado de forma modular para demonstrar boas práticas de programação, como o uso de headers e prototipagem de funções.
 
 ## 🛠️ Funcionalidades
 
-- **Gestão de Memória:** Criação e listagem de mensagens dinâmicas.
-- **Chave Mestra:** Sistema de autenticação para validar processos de criptografia.
-- **Criptografia:** Algoritmos para cifrar e decifrar as mensagens guardadas.
-- **Persistência:** Suporte para gravação de dados em ficheiros.
+- **Lógica de Jogo:** Verificação de acertos, erros e controle de tentativas.
+- **Estrutura Modular:** Código dividido para facilitar a leitura e manutenção.
+- **Prototipagem:** Definição clara das funções em arquivo de cabeçalho.
+- **Interface via Terminal:** Interação direta e simples com o usuário.
 
-## 📁 Estrutura do Código
+## 📁 Estrutura do Projeto
 
-A lógica está dividida de forma modular para facilitar a manutenção:
-* **CriptoMsg.c:** Ponto de entrada, contém o menu e a navegação.
-* **encriptar.c:** Implementação das funções de cifragem e lógica de segurança.
-* **Encriptar.h:** Definições de protótipos e estruturas.
+O projeto utiliza a separação de responsabilidades entre arquivos:
 
-## 🚀 Como Executar
+* **`jogo.h` (Header File):** Contém a **prototipagem** de todas as funções e as definições de constantes. Ele serve como o "manual" do que o programa é capaz de fazer.
+* **`jogo.c`:** Implementação das funções e toda a lógica de funcionamento do jogo.
+* **`projetoFinal.c`:** Ponto de entrada do programa (contém a função `main`) que coordena a execução utilizando as funções prototipadas.
 
-Basta compilar os ficheiros `.c` utilizando o GCC:
+## 🚀 Como Compilar e Executar
+
+Como o projeto é modular, é necessário compilar os arquivos `.c` juntos:
 
 ```bash
-# Compilação
-gcc CriptoMsg.c encriptar.c -o criptomsg
+# Compilação dos módulos
+gcc jogo.c projetoFinal.c -o forca
 
 # Execução
-./criptomsg
+./forca
