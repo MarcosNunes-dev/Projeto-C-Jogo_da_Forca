@@ -1,4 +1,4 @@
-# Projeto Jogo da Forca - Linguagem C 🕹️
+# Projeto Jogo da Forca - Linguagem C 
 
 Este é um clássico Jogo da Forca desenvolvido em C, estruturado de forma modular para demonstrar boas práticas de programação, como o uso de headers e prototipagem de funções.
 
