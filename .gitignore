@@ -1,0 +1,14 @@
+# Compilados e Binários
+*.exe
+*.o
+*.obj
+*.out
+
+# Pastas de Build e IDE
+x64/
+Debug/
+Release/
+.vs/
+
+# Outros
+*.log
