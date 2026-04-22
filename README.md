@@ -6,13 +6,20 @@ Este é um clássico Jogo da Forca desenvolvido em C, estruturado de forma modul
 
 Aqui podes ver o fluxo de funcionamento do programa:
 
-<div align="center">
-  <img src="img/print1.png" width="400px" alt="Início do Jogo">
-  <img src="img/print2.png" width="400px" alt="Tentativas">
-  <br>
-  <img src="img/print3.png" width="400px" alt="Progresso">
-  <img src="img/print4.png" width="400px" alt="Finalização">
-</div>
+### Menu Principal
+![Menu Principal](img/print1.png)
+
+### Instruções e Início do Jogo
+![Instruções](img/print2.png)
+
+### Dinâmica de Palpites
+![Palpites](img/print3.png)
+
+### Game Over / Enforcado
+![Finalização](img/print4.png)
+
+### Vitória - Palavra Descoberta
+![Vitória](img/print5.png)
 
 ## 🛠️ Funcionalidades
 
